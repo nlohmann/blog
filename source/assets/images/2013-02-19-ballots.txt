@@ -1,0 +1,15 @@
+Leia,Obi ; Darth,Yoda / Han / Jar         #1
+Jar ; Leia ; Obi ; Han ; Yoda ; Darth //  #2
+Leia ; Obi ; Yoda / / Han ; Jar ; Darth   #3
+Yoda ; Jar,Obi / Leia,Han / Darth         #4
+Obi ; Han,Yoda,Darth / Leia / Jar         #5
+Darth,Han ; Leia ; Obi,Yoda / / Jar       #6
+Leia / Jar,Yoda / Han,Obi,Darth           #7
+Darth ; Leia ; Han / Obi / Yoda ; Jar     #8
+Darth ; Yoda,Han / Jar / Leia,Obi         #9
+Yoda ; Han ; Obi / Leia / Darth ; Jar     #10
+Darth ; Obi,Han,Yoda / Leia / Jar         #11
+Yoda ; Darth,Obi ; Han / Leia / Jar       #12
+Yoda ; Obi / Han,Leia,Darth / Jar         #13
+Yoda ; Darth ; Obi / Jar / Leia ; Han     #14
+Yoda ; Obi ; Han,Leia / Darth / Jar       #15

@@ -1,0 +1,28 @@
+---
+title : Humans.txt - see http://humanstxt.org/Standard.html
+---
+/* TEAM */
+
+        Site and content: Niels Lohmann
+        Contact: niels.lohmann@gmail.com
+        Twitter: @nlohmann
+        From: Rostock, Germany
+
+
+/* THANKS */
+
+        Layout: http://toolong-didntread.com
+
+
+/* SITE */
+
+        Last update: {{ site.time | date: "%Y/%m/%d" }}
+        Language: German
+        Doctype: HTML5
+        Software: Jekyll
+
+        _       _                                                  
+  _ __ | | ___ | |__  _ __ ___   __ _ _ __  _ __    _ __ ___   ___ 
+ | '_ \| |/ _ \| '_ \| '_ ` _ \ / _` | '_ \| '_ \  | '_ ` _ \ / _ \
+ | | | | | (_) | | | | | | | | | (_| | | | | | | |_| | | | | |  __/
+ |_| |_|_|\___/|_| |_|_| |_| |_|\__,_|_| |_|_| |_(_)_| |_| |_|\___|

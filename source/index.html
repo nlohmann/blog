@@ -1,0 +1,18 @@
+---
+layout: page
+title: Blog
+---
+{% include JB/setup %}
+
+{% for post in site.posts %}
+  <p class="post_index"><span>{{ post.date | date: "%d.%m.%Y" }}</span><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}{% if post.tagline %} &ndash; {{ post.tagline }}{% endif %}</a>  
+{% unless post.tags == empty %}
+  <ul class="taglist_index">
+    {% assign tags_list = post.tags | sort %}
+    {% include JB/tags_list %}
+  </ul>
+{% endunless %}  
+
+  </p>
+{% endfor %}
+

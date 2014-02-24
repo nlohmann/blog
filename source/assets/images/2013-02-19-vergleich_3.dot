@@ -1,0 +1,26 @@
+/* circo 2013-02-19-vergleich_3.dot -Tsvg -O */
+
+digraph "direkter Vergleich" {
+  bgcolor = transparent;
+  edge [fontname="Avenir"]
+  node [fontname="Avenir"; style=filled; fillcolor=white]
+
+  "Darth" [penwidth=4.0]
+  "Leia" [penwidth=4.0]
+  "Obi" [color=lightgray fillcolor=none fontcolor=lightgray]
+  "Han"
+  "Yoda" [color=lightgray fillcolor=none fontcolor=lightgray]
+
+  "Darth" -> "Han" [label="6" penwidth=3.0];
+
+  edge [color=lightgray fontcolor=lightgray]
+
+  "Obi" -> "Darth" [label="8"];
+  "Obi" -> "Leia" [label="8"];
+  "Obi" -> "Han" [label="9"];
+
+  "Yoda" -> "Darth" [label="8"];
+  "Yoda" -> "Leia" [label="9"];
+  "Yoda" -> "Obi" [label="9"];
+  "Yoda" -> "Han" [label="9"];
+}

@@ -1,0 +1,15 @@
+<section>
+
+  <article class="page">
+    <header>
+      <h1><a href="{{ page.url }}">{{ page.title }}{% if page.tagline %}<br /><small>{{ page.tagline }}</small>{% endif %}</a></h1>
+    </header>
+
+    {{ content }}
+  </article>
+
+  <div class="meta">
+    <i class="icon-calendar"></i>&nbsp;{{ site.time | date: "%d.%m.%Y" }} <i class="icon-user"></i>&nbsp;<a href="/impressum.html">Niels Lohmann</a> <i class="icon-repeat"></i>&nbsp;<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/de/">CC BY-NC-SA</a> <i class="icon-heart"></i>&nbsp;<a href="https://flattr.com/submit/auto?user_id=nlohmann&url={{ site.production_url }}{{ page.url }}&title={{ page.title | CGI::escape }}{% if page.tagline %}%20-%20{{ page.tagline | CGI::escape }}{% endif %}&language=de_DE&category=text">Flattr&nbsp;me</a>
+  </div>
+
+</section>

@@ -1,0 +1,21 @@
+/* dot 2013-02-19-reihenfolge.dot -Tsvg -O */
+
+digraph "Reihenfolge" {
+  bgcolor = transparent;
+  rankdir=LR;
+  edge [fontname="Avenir"]
+  node [fontname="Avenir"; style=filled; fillcolor=white]
+
+  "Darth"
+  "Leia"
+  "Obi"
+  "Han"
+  "Yoda"
+
+  "Yoda" -> "Obi"
+
+  "Obi" -> "Darth"
+  "Obi" -> "Leia"
+
+  "Darth" -> "Han"
+}

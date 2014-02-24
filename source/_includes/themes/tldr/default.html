@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ site.title }} › {{ page.title }}{% if page.tagline %} &ndash; {{ page.tagline }}{% endif %}</title>
+    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+    <meta name="author" content="{{ site.author.name }}">
+
+    <link href="{{ site.production_url }}/humans.txt" rel="author" />
+    <link href="{{ site.production_url }}/atom.xml" type="application/atom+xml" rel="alternate" title="nlohmann.me als Atom">
+
+    <link rel="icon" href="{{ site.production_url }}/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="{{ ASSET_PATH }}/favicons/apple-touch-icon-iphone.png" /> 
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ ASSET_PATH }}/favicons/apple-touch-icon-ipad.png" /> 
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ ASSET_PATH }}/favicons/apple-touch-icon-iphone4.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="{{ ASSET_PATH }}/favicons/apple-touch-icon-ipad3.png" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-title" content="nlohmann.me">
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
+
+    <link href="{{ ASSET_PATH }}/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+      <h1 class="logo"><a href="/">nlohmann</a></h1>
+    </header>
+
+    {{ content }}
+
+    <nav>
+      <ul>
+        <li>
+          <span class="hint hint--left" data-hint="Impressum">
+            <a href="/impressum.html"><i class="icon-user"></i></a>
+          </span>
+        </li>
+        <!--
+        <li>
+          <span class="hint hint--left" data-hint="Transparenz">
+            <a href="/transparenz.html"><i class="icon-info-sign"></i></a>
+          </span>
+        </li>
+        <li>
+          <span class="hint hint--left" data-hint="LiquidFeedback-Auswertungen">
+            <a href="//lqfb.nlohmann.me"><i class="icon-bar-chart"></i></a>
+          </span>
+        </li>
+        <li>
+        -->
+          <span class="hint hint--left" data-hint="RSS Feed">
+            <a href="{{ site.production_url }}/atom.xml"><i class="icon-rss"></i></a>
+        </span>
+        </li>
+      </ul>
+{% if page.next %}
+      <span class="pagination_next">
+        <span class="hint hint--left" data-hint="{{ page.next.title }}{% if page.next.tagline %} - {{ page.next.tagline }}{% endif %}">
+          <a href="{{ page.next.url }}"><i class="icon-chevron-right"></i></a>
+        </span>
+      </span>
+{% endif %}
+{% if page.previous %}
+      <span class="pagination_previous">
+        <span class="hint hint--right" data-hint="{{ page.previous.title }}{% if page.previous.tagline %} - {{ page.previous.tagline }}{% endif %}">
+          <a href="{{ page.previous.url }}"><i class="icon-chevron-left"></i></a>
+        </span>
+      </span>
+{% endif %}
+      <span class="pagination_home">
+        <span class="hint hint--right" data-hint="Startseite">
+          <a href="/">nl</a>
+        </span>
+      </span>
+    </nav>
+
+  </body>
+</html>
