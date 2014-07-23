@@ -4,9 +4,9 @@ title : Humans.txt - see http://humanstxt.org/Standard.html
 /* TEAM */
 
         Site and content: Niels Lohmann
-        Contact: niels.lohmann@gmail.com
+        Contact: mail@nlohmann.me
         Twitter: @nlohmann
-        From: Rostock, Germany
+        From: Berlin, Germany
 
 
 /* THANKS */
