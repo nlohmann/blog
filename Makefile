@@ -4,7 +4,7 @@ all:
 
 #update: tagebuch update_site originals quotes tidy_html minify_css
 
-update: tagebuch update_site originals tidy_html minify_css
+update: update_site originals tidy_html minify_css
 
 # Update Tagebuch from Pad
 tagebuch:

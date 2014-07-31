@@ -5,16 +5,13 @@ description: ""
 ---
 {% include JB/setup %}
 
-![Niels](/assets/images/nlohmann5.jpg "Niels")
+![Niels](/assets/images/nlohmann6.jpg "Niels")
 
-Diese Seite wird von Niels Lohmann betrieben, der im Netz recht schlecht pseudonymisiert als nlohmann unterwegs ist. Wenn man ihn erreichen möchte, könnt ihr euch hier eure Lieblingsmethode aussuchen:
+Diese Seite wird von [Niels Lohmann](http://nlohmann.me) betrieben, der im Netz recht schlecht pseudonymisiert als nlohmann unterwegs ist. Wenn man ihn erreichen möchte, könnt ihr euch hier eure Lieblingsmethode aussuchen:
 
-- Mail: <niels.lohmann@gmail.com>
+- Mail: <mail@nlohmann.me>
 - Twitter: [@nlohmann](http://twitter.com/nlohmann)
 - Skype: nlohmann
-- Foursquare: [nlohmann](https://foursquare.com/nlohmann)
-- Piratenwiki: [nlohmann](http://wiki.piratenpartei.de/Benutzer:Nlohmann)
-- Formspring: [nlohmann](http://formspring.me/nlohmann)
 
 ****
 
